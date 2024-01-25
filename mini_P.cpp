@@ -25,13 +25,13 @@ void Remove(int T[][2], int *taille, int code, int Q) {
                 T[i][1] -= Q;
                 produitExist = 1;
             } else {
-                printf("Erreur : La quantité à retirer n'est pas valable\n");
+                printf("Erreur : La quantitÃ© Ã  retirer n'est pas valable\n");
             }
             break;
         }
-    }
-    if (produitExist != 1) {
+        else (produitExist != 1) {
         printf("Erreur : Le produit avec le code %d n'existe pas\n", code);
+    }
     }
 }
 
